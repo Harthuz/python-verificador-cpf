@@ -1,10 +1,12 @@
 # cpf 469.743.048-46
+import os
+os.system('cls')
 
-cpf = input("Digite um CPF: ")
+entrada = input("Digite um CPF: ")
 
 #declarando variáveis
-cpf_dois_ultimos_digitos = cpf[-2:]
-cpf = cpf[:-2]
+cpf_dois_ultimos_digitos = entrada[-2:]
+cpf = entrada[:-2]
 cpfNumero = ""
 soma1 = 0
 soma2 = 0
